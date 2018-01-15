@@ -2,6 +2,14 @@
 
 require_once("config.php");
 
+$usuario = new Usuario();
+
+$usuario->loadById(10);
+
+$usuario->delete();
+
+echo $usuario;
+
 /*$usuario = new Usuario();
 
 $usuario->loadById(13);
