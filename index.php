@@ -2,17 +2,29 @@
 
 require_once("config.php");
 
-$acesso = new Usuario();
+/*$usuario = new Usuario();
 
+$usuario->loadById(13);
+
+$usuario->update("professor", "123456");
+
+echo $usuario;*/
+
+
+/*$aluno = new Usuario("Aluno", "17410916");
+$aluno->insert();
+echo $aluno;*/
+
+/*$acesso = new Usuario();
 $acesso->login("Sarah", "Martins");
-
-echo $acesso;
+echo $acesso;*/
 
 /*
-$search = usuario::search("j");
+$search = usuario::search("sa");
 echo json_encode($search);
+*/
 
-
+/*
 $lista = usuario::getList(); 
 echo json_encode($lista);
 
